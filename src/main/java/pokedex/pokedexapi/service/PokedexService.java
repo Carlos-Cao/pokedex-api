@@ -11,7 +11,7 @@ public interface PokedexService {
 
     Optional<Pokedex> getPokemonById(String id);
 
-    void deleteByPokemonId(String id);
+    void deletePokemonById(String id);
 
-    List<Pokedex> getAllPokemon(List<Pokedex> pokedexList);
+    List<Pokedex> getAllPokemon();
 }

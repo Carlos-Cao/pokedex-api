@@ -29,12 +29,12 @@ public class ServiceImplementation implements PokedexService{
     }
 
     @Override
-    public void deleteByPokemonId(String id) {
+    public void deletePokemonById(String id) {
         repository.deleteById(id);
     }
 
     @Override
-    public List<Pokedex> getAllPokemon(List<Pokedex> pokedexList) {
+    public List<Pokedex> getAllPokemon() {
         return repository.findAll();
     }
 }
