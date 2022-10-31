@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class ServiceImplementation implements PokedexService{
+public class ServiceImplementation implements PokedexService {
 
     @Autowired
     PokedexRepository repository;
